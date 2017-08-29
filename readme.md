@@ -36,3 +36,6 @@ public function render($request, Exception $exception)
     return parent::render($request, $exception);
 }
 ```
+
+Note : This exmaple is without any authentication (JWT)
+But we can implement this amazing package to make it happen https://github.com/dingo/api
